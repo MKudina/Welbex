@@ -2,7 +2,7 @@
 
 ### О проекте:
 
-Второе задание
+Одностраничный сайт без функционала
 
 ---
 
@@ -10,7 +10,7 @@
 
 Клонировать репозиторий
 ```
-git clone git@github.com:MKudina/Welbex.gitgi
+git clone git@github.com:MKudina/Welbex.git
 ```
 
 ```
