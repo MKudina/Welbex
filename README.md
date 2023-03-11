@@ -10,7 +10,7 @@
 
 Клонировать репозиторий
 ```
-git clone ...
+git clone git@github.com:MKudina/Welbex.gitgi
 ```
 
 ```
