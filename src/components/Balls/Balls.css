@@ -1,0 +1,98 @@
+.red-ball {
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px #DF7D7D40;
+    position: absolute;
+    top: 83px;
+    left: 519px;
+}
+
+.red-small-ball {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px #DF7D7D40;
+    filter: blur(2.5px);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top: 547px;
+    left: 851px;
+}
+
+.red-big-ball {
+    width: 311px;
+    height: 311px;
+    border-radius: 50%;
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+    position: absolute;
+    top: 251px;
+    left: -102px;
+}
+
+.purple-ball {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px #B176D940;
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top: -2px;
+    left: 868px;
+}
+
+.purple-big-ball {
+    width: 259px;
+    height: 259px;
+    border-radius: 50%;
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+    position: absolute;
+    top: -154px;
+    left: 602px;
+}
+
+@media screen and (max-width:320px) {
+    .red-ball {
+        width: 43px;
+        height: 43px;
+        top: 455px;
+        left: 29px;
+        filter: blur(2.5px);
+        backdrop-filter: blur(2px);
+    }
+
+    .red-small-ball {
+        display: none;
+    }
+
+    .red-big-ball {
+        width: 211px;
+        height: 210px;
+        top: 296px;
+        left: -55px;
+        z-index: 0;
+    }
+
+    .purple-ball {
+        width: 40px;
+        height: 40px;
+        top: 291px;
+        left: 296px;
+        z-index: 0;
+    }
+
+    .purple-big-ball {
+        top: 162px;
+        left: 258px;
+        z-index: 0;
+    }
+
+}

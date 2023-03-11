@@ -1,0 +1,27 @@
+/* Подключение стиля normalize.css */
+
+@import url(./vendor/normalize.css);
+
+/* Подключение стиля шрифтов */
+
+@import url(./vendor/fonts/fonts.css);
+
+/* Подключение блока page */
+
+@import url(./components/App/App.css);
+
+/* Подключение блока header */
+
+@import url(./components/Header/Header.css);
+
+/* Подключение блока main */
+
+@import url(./components/Main/Main.css);
+
+/* Подключение блока footer */
+
+@import url(./components/Footer/Footer.css);
+
+/* Подключение блока footer */
+
+@import url(./components/Balls/Balls.css);
